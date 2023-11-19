@@ -1,0 +1,92 @@
+#!/bin/bash
+
+# TODO read scripts from config file
+# TODO add bash autocompletion
+
+n () {
+
+  local input=$1
+  local pm="${2:-bun}"
+  local run=true
+  local cmd="dev"
+
+  if [[ -f "Makefile" ]]; then
+    # Not finished yet
+    
+    pm="make"
+    run=false
+    cmd="install"
+
+  elif [[ -f "Cargo.lock" ]]; then
+    # Not finished yet
+    
+    cmd="build"
+    pm="cargo"
+    run=false
+
+  elif [[ -f "yarn.lock" ]]; then
+    pm="yarn"
+  elif [[ -f "package-lock.json" ]]; then
+    pm="npm"
+  elif [[ -f "pnpm-lock.yaml" ]]; then
+    pm="pnpm"
+  elif [[ -f "bun.lockb" ]]; then
+    pm="bun"
+  fi
+
+  if [[ "$input" == "del" ]]; then
+    find . -name node_modules -type d | while read dir; do
+      rm -rf "$dir"
+    done
+
+    names=("package-lock.json" "yarn.lock" "pnpm-lock.yaml" "bun.lockb" "npm-debug.log*" "yarn-debug.log*" "yarn-error.log*" "pnpm-debug.log*" "vite.config.js.timestamp*" "vite.config.ts.timestamp*")
+    for name in $names; do
+      find . -maxdepth 3 -type f -name "$name" -delete
+    done
+
+    return
+  fi
+
+  case $pm in
+    (-n|--npm) pm="npm" ;;
+    (-y|--yarn) pm="yarn" ;;
+    (-b|--bun) pm="bun" ;;
+    (-p|--pnpm) pm="pnpm" ;;
+  esac
+
+  for (( i = 1; i <= ${#input}; i++)); do
+    ch=$(echo "$input" | cut -c "$i")
+
+    case $ch in
+      (d) cmd="dev" ;;
+      (t) cmd="test" ;;
+      (s) cmd="start" ;;
+      (b) cmd="build" ;;
+      (l) cmd="lint" ;;
+      (c) cmd="check" ;;
+      (f) cmd="format" ;;
+      (p) cmd="preview" ;;
+      (u) cmd="update";;
+      (i) eval "$pm install"
+        continue ;;
+    esac
+
+    if [[ $run == "true" ]]; then
+      echo "$pm run $cmd"
+      eval "$pm" run "$cmd"
+    else
+      echo "$pm $cmd"
+      eval "$pm" "$cmd"
+    fi
+  done
+    
+    if [[ $run == "true" ]]; then
+      echo "$pm run $cmd"
+      eval "$pm" run "$cmd"
+    else
+      echo "$pm $cmd"
+      eval "$pm" "$cmd"
+    fi
+}
+
+n $@

@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "**/scripts/*": "shellscript",
+    "*rc": "shellscript",
+    "*.json": "json",
+    "*ignore": "ignore"
+  }
+}

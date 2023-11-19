@@ -1,0 +1,9 @@
+#!/bin/sh
+
+randomstring () {
+  local length=${1:-32}
+  local charset=${2:-'a-zA-Z0-9'}
+  cat /dev/urandom | tr -dc $charset | fold -w $length | head -n 1
+} 
+
+randomstring $@

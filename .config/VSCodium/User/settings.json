@@ -1,0 +1,132 @@
+/*
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⡷⣦⣄⣀
+⠀⠀⠀⠀⠀𝕍𝕊𝕔𝕠𝕕𝕖⠀⠀⣠⣾⣿⣿⣿⣟⡷⣯⣟⡿⣦
+⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣯⢿⣳⣯⢿⣽
+⣤⣿⣿⣷⣤⡀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⡿⠟⣿⣻⢯⣟⣯⣿
+⠻⣿⣿⣿⣿⣿⣶⣶⣿⣿⣿⣿⣿⣿⠟⠋⠀⠀⣿⣽⡿⣯⣿⢾
+⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠁⠀⠀⠀⠀⣿⣳⣿⢿⣽⣿
+⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣷⣤⠀⠀⠀⠀⠀⣿⡿⣽⣿⣻⣾     ⠀⠀⠀______                         ___    _                ⠀⠀⠀⣀⣤⣴⣶⣿⣿⣿⡿⣿⣿⣶⣦⣄
+⣴⣿⣿⣿⣿⣿⠟⠻⣿⣿⣿⣿⣿⣿⣶⣄⠀⠀⣿⣿⢿⣽⣿⣽     ⠀.' ___  |                      .' ..]  (_)             ⠀⠀⢀⣴⣾⣿⣿⠏⠉⠀⠀⠀⠀⠀⠀⠀⠉⠙⠳⠄
+⠛⢿⣿⡿⠛⠁⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⣦⣿⡿⣿⣿⣾⢿     / .'   \_|   .--.    _ .--.    _| |_    __     .--./)   ⢀⣴⣿⠟⠉⢿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⣶⡀
+⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⡿⣷⣿⣿     | |        / .'`\ \ [ `.-. |  '-| |-'  [  |   / /'`\;   ⣿⣿⠁⠀⠀⢸⣏⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⠻⣦⡀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣿⣿⣿⣟⣿⣿⣟⠟     \ `.___.'\ | \__. |  | | | |    | |     | |   \ \._//   ⠈⠛⠆ ⠀⠀⠃⠀⠀⠀⠀⠀⠀⠀⠀ ⣿⡇⠀⣀⣀⣠⣤⣶⣾⡿
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⡿⠟⠋⠁⠀⠀     ⠀`.____ .'  '.__.'  [___||__]  [___]   [___]  .',__`    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⣤⣤⣶⣾⣿⠿⠿⠿⠛⠛⠋⠉⠁
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                    ⠀⠀⠀⠀⠀⠀( ( __))   下工乚乇
+⠀⠀⠀⠀⠀⠀乃丫 _𝚎𝚢𝚠𝚊𝚟𝚎
+*/{
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.sortImports": true
+  },
+  "editor.codeLensFontFamily": "mononoki Nerd Font Mono",
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.detectIndentation": false,
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.fontFamily": "mononoki Nerd Font Mono",
+  "editor.fontLigatures": true,
+  "editor.inlayHints.enabled": "off",
+  "editor.insertSpaces": true,
+  "editor.lineHeight": 1.2,
+  "editor.linkedEditing": true,
+  "editor.minimap.maxColumn": 69,
+  "editor.selectionClipboard": false,
+  "editor.smoothScrolling": true,
+  "editor.snippetSuggestions": "bottom",
+  "editor.suggest.showWords": false,
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.suggestFontSize": 13,
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html",
+    "erb": "html",
+    "ruby": "html",
+    "postcss": "css"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.sortOrder": "default",
+  "javascript.format.semicolons": "remove",
+  "javascript.suggest.names": false,
+  "javascript.suggestionActions.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "rainbow_csv.autodetect_separators": [",", ";", "|"],
+  "rust-analyzer.assist.expressionFillDefault": "default",
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.semanticHighlighting.doc.comment.inject.enable": false,
+  "rust-analyzer.semanticHighlighting.operator.enable": false,
+  "scm.countBadge": "off",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/dist": true,
+  },
+  "search.quickOpen.includeHistory": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "svelte.ask-to-enable-ts-plugin": false,
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.diagnostics.enable": false,
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.fastScrollSensitivity": 8,
+  "terminal.integrated.fontFamily": "mononoki Nerd Font Mono",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.tabs.description": "uwu",
+  "terminal.integrated.tabs.enableAnimation": false,
+  "terminal.integrated.tabs.title": "\u2764 ${process}",
+  "totalTypeScript.hiddenTips": ["passing-generics-to-types", "non-null-expression", "tuple-type"],
+  "totalTypeScript.hideAllTips": true,
+  "totalTypeScript.hideBasicTips": true,
+  "typescript.format.semicolons": "remove",
+  "typescript.suggest.paths": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.title": "${rootName} \u2661(\u30ce\uff61-${dirty} \u03c9 ${dirty}-)\u30ce${activeEditorShort}",
+  "workbench.colorCustomizations": {
+    "editorBracketMatch.background": "#ffffff22",
+    "editorBracketMatch.border": "#ffffff10",
+    "editorUnicodeHighlight.background": "#ffffff33",
+    "editorUnicodeHighlight.border": "#ffffff22",
+    "editorIndentGuide.background1": "#ffffff08",
+    "editorIndentGuide.activeBackground1": "#ffffff20",
+    "tree.indentGuidesStroke": "#ffffff18",
+    "terminal.foreground": "#A3A3A3",
+    "terminalCursor.background": "#A3A3A3",
+    "terminalCursor.foreground": "#A3A3A3",
+    "terminal.ansiBlack": "#1F2022",
+    "terminal.ansiBrightBlack": "#585858",
+    "terminal.ansiRed": "#be3230",
+    "terminal.ansiBrightRed": "#e45755",
+    "terminal.ansiBrightGreen": "#3cca53",
+    "terminal.ansiGreen": "#3ba55e",
+    "terminal.ansiBrightYellow": "#dfdc5d",
+    "terminal.ansiYellow": "#b68825",
+    "terminal.ansiBlue": "#276ca8",
+    "terminal.ansiBrightBlue": "#62a6e2",
+    "terminal.ansiMagenta": "#A31DB1",
+    "terminal.ansiBrightMagenta": "#A31DB1",
+    "terminal.ansiCyan": "#2d9195",
+    "terminal.ansiBrightCyan": "#64c2c9",
+    "terminal.ansiWhite": "#A3A3A3",
+    "terminal.ansiBrightWhite": "#F8F8F8",
+  },
+  "workbench.colorTheme": "Blueberry dark theme",
+  "workbench.editor.autoLockGroups": {},
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 19,
+  "workbench.editor.enablePreview": false,
+  "git.openRepositoryInParentFolders": "never",
+}

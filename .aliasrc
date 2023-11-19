@@ -1,0 +1,53 @@
+#!/bin/zsh
+# Alias definitions.
+# You may want to put all your additions into a separate file like .aliasrc
+
+# Directories Shortcuts
+if [ "$DETECTED_OS" = "LINUX_Desktop" ]; then
+  dl="$HOME/Downloads/"
+  docs="$HOME/Documents"
+  pics="$HOME/Pictures"
+  vids="$HOME/Videos"
+  music="$HOME/Music"
+  js="$docs/Javascript"
+  nodejs="$js/NodeJS"
+  svelte="$js/Svelte"
+  vue="$js/Vue"
+  react="$js/TSX"
+  py="$docs/Python"
+  rust="$docs/Rust"
+fi
+
+# System commands
+if [ "$DETECTED_OS" != "LINUX_Android" ]; then
+  alias cat="bat -pP"
+  alias fullUpgrade="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
+fi
+
+if [ "$DETECTED_OS" = "LINUX_Desktop" ]; then
+  alias kssh="kitty +kitten ssh"
+fi
+
+alias ll="eza -alF --icons"
+alias ls="eza -lF --no-user --no-permissions --icons"
+alias tree="eza --tree -I \"node_modules|target|cache|deps|.git|.svelte-kit|.vscode|dist|build|target\" --icons"
+alias lg="lazygit"
+
+# Quality of life
+if [ "$DETECTED_OS" = "LINUX_Desktop" ] || [ "$DETECTED_OS" = "LINUX_WSL" ]; then
+  alias "code."="codium ."
+  alias "code.."="codium .."
+  alias code="codium"
+fi
+
+alias ":q"="exit"
+alias "cd.."="cd .."
+
+alias cmatrix="cmatrix -aoC blue"
+alias Gpg="gpg -c --no-symkey-cache --cipher-algo AES256"
+alias grep="grep --color"
+alias nf="skyfetch"
+alias py="python3"
+alias del="gio trash"
+alias dos2unix="sed -i 's/\r//'"
+alias cclip="xclip -i -selection clipboard"
