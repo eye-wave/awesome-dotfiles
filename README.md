@@ -1,10 +1,10 @@
 # $(whoami)'s Dotfiles
 
-<img src="./assets/cat.gif" style="display:inline; border-radius: 5px; margin-bottom: 100px; margin-right: 20px">
-<img src="./assets/image.webp" alt="generated with playground.ai" style="display:inline; border-radius: 5px">
+![generated with playground.ai](./assets/image.webp)
 
 This repository contains my dotfiles for various software that i use.
 
+![funny cat](./assets/cat.gif)
 
 ## Getting Started
 
