@@ -1,4 +1,10 @@
+# vscode settings
 .vscode
-.git
 
+# git repository
+.git
+LICENSE
+
+# Stuff for README.md
 README.md
+assets
