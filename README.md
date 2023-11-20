@@ -1,22 +1,38 @@
+<div align="center">
+
 # $(whoami)'s Dotfiles
 
-<pre>
-<font color="#BAB">~</font><font color="#DEE"></font><font color="#BCB"> eye-wave</font><font color="#BAB"> </font><font color="#FFF">📁</font><font color="#BAB"> zsh </font>
-<font color="#BAB">~</font><font color="#BDF"> 📁 home</font><font color="#BAB"> ~ </font>
-<font color="#BAB">~</font><font color="#DEE"> </font><font color="#AEB">nf</font>
-<font color="#9CF">               </font><font color="#DEE">eye-wave</font><font color="#F8A">@</font>BPwtY3lIQxXp
-<font color="#9CF">   __   _      </font><font color="#FCE">os </font><font color="#DEE">  ~ </font><font color="#FCE">Pop!_OS 22.04 LTS</font>
-<font color="#9CF"> _(  )_( )_    </font><font color="#AEB">upt </font><font color="#DEE"> ~ </font><font color="#AEB">123s</font>
-<font color="#9CF">(_   _    _)   </font><font color="#AEB">wm </font><font color="#DEE">  ~ </font><font color="#AEB">pop</font>
-<font color="#9CF">  (_) (__)     </font><font color="#DBF">term</font><font color="#DEE"> ~ </font><font color="#DBF">xterm-256color</font>
-<font color="#9CF">               </font><font color="#FEB">sh </font><font color="#DEE">  ~ </font><font color="#FEB">zsh</font>
-<font color="#9CF">               </font><font color="#F8A">● </font><font color="#AEB">● </font><font color="#FCE">● </font><font color="#9CF">● </font><font color="#DEE">●</font>
-</pre>
+![skyfetch screenshot](./assets/screenshot.webp)
+</div>
 
-![funny cat](./assets/cat.gif)
-![generated with playground.ai](./assets/image.webp)
 
-This repository contains my dotfiles for various software that i use.
+<table style="width: 100%; border: none;" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td></td>
+    <td rowspan="3"><img src="./assets/cat.gif" alt="Funny cat"></td>
+  </tr>
+  <tr>
+    <td>This <b>repository</b> contains <i>dotfiles</i></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  
+  <tr>
+    <td rowspan="3"><img src="./assets/image.webp" alt="generated with playground.ai"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>for various software that <i>I use.</i>✨</td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
+
+<div align="center">
+
+</div>
 
 ## Getting Started
 
@@ -48,8 +64,9 @@ This will create symlinks from this directory in your home directory.
 
 ## Acknowledgments
 
-- [GNU Stow](https://www.gnu.org/software/stow/) - The symlink farm manager used to manage the dotfiles.
+- [GNU Stow](https://www.gnu.org/software/stow) - The symlink farm manager used to manage the dotfiles.
+- [justleoo/skyfetch](https://github.com/justleoo/skyfetch) - a system information fetch written in rust 🦀
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU GPL License - see the [LICENSE](LICENSE) file for details.
