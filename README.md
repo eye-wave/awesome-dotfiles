@@ -36,17 +36,49 @@
 
 Ensure you have GNU Stow installed on your system. If not, you can install it via your package manager:
 
-#### For Debian/Ubuntu:
+<!-- Debian Ubuntu -->
+<details>
+  <summary>
+    🧡 For Debian/Ubuntu:
+  </summary>
 
 ```bash
 sudo apt-get install stow
 ```
+</details>
 
-#### For Fedora:
+<!-- Fedora -->
+<details>
+  <summary>
+    💜 For Fedora:
+  </summary>
 
 ```bash
 sudo dnf install stow
 ```
+</details>
+
+<!-- Arch -->
+<details>
+  <summary>
+    💙 For Arch Linux:
+  </summary>
+
+```bash
+sudo pacman -S stow
+```
+</details>
+
+<!-- Mac -->
+<details>
+  <summary>
+    🍍 For macOS (Homebrew):
+  </summary>
+
+```bash
+sudo pacman -S stow
+```
+</details>
 
 ### Usage
 
