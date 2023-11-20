@@ -2,6 +2,7 @@
   "files.associations": {
     "**/scripts/*": "shellscript",
     "*rc": "shellscript",
+    "*.conf": "toml",
     "*.json": "json",
     "*ignore": "ignore"
   }
