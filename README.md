@@ -94,6 +94,31 @@ This will create symlinks from this directory in your home directory.
 
 - [GNU Stow](https://www.gnu.org/software/stow) - The symlink farm manager used to manage the dotfiles.
 - [justleoo/skyfetch](https://github.com/justleoo/skyfetch) - a system information fetch written in rust 🦀
+- [Schniz/fnm](https://github.com/justleoo/skyfetch) - 🚀 Fast and simple Node.js version manager, built in Rust
+
+## Included Software
+
+List of software that has independent config, or a alias in my dotfiles.
+
+<div align="center">
+
+![Static Badge](https://img.shields.io/badge/VSCodium-2F80ED?style=for-the-badge&logo=vscodium&logoColor=fff)
+![Static Badge](https://img.shields.io/badge/spotifyd-1DB954?style=for-the-badge&logo=spotify&logoColor=fff)
+![Static Badge](https://img.shields.io/badge/gimp-5C5543?style=for-the-badge&logo=gimp&logoColor=fff)
+![Static Badge](https://img.shields.io/badge/kitty-CE48A1?style=for-the-badge&logo=windowsterminal&logoColor=fff)
+![Static Badge](https://img.shields.io/badge/zsh-F15A24?style=for-the-badge&logo=zsh&logoColor=fff)
+![Static Badge](https://img.shields.io/badge/lazygit-F05032?style=for-the-badge&logo=git&logoColor=fff)
+![Static Badge](https://img.shields.io/badge/skyfetch-000?style=for-the-badge&logo=rust&logoColor=fff)
+![Static Badge](https://img.shields.io/badge/fnm-000?style=for-the-badge&logo=rust&logoColor=fff)
+![Static Badge](https://img.shields.io/badge/eza-000?style=for-the-badge&logo=rust&logoColor=fff)
+
+![Static Badge](https://img.shields.io/badge/bun-000?style=for-the-badge&logo=bun&logoColor=fff)
+![Static Badge](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=fff)
+![Static Badge](https://img.shields.io/badge/deno-000?style=for-the-badge&logo=deno&logoColor=fff)
+![Static Badge](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=fff)
+![Static Badge](https://img.shields.io/badge/cargo-000?style=for-the-badge&logo=rust&logoColor=fff)
+
+</div>
 
 ## License
 
