@@ -4,7 +4,7 @@
 
 ![skyfetch screenshot](./assets/screenshot.webp)
 
-<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<table cellspacing="0" cellpadding="0" border="0">
   <tr>
     <td></td>
     <td rowspan="3"><img src="./assets/cat.gif" alt="Funny cat"></td>
