@@ -3,8 +3,6 @@
 # $(whoami)'s Dotfiles
 
 ![skyfetch screenshot](./assets/screenshot.webp)
-</div>
-
 
 <table style="width: 100%; border: none;" cellspacing="0" cellpadding="0" border="0">
   <tr>
@@ -29,8 +27,6 @@
     <td></td>
   </tr>
 </table>
-
-<div align="center">
 
 </div>
 
