@@ -46,6 +46,9 @@ if [ $DETECTED_OS != "LINUX_Android" ]; then
   # rust
   . "$HOME/.cargo/env"
 
+  # go
+  export PATH=$PATH:/usr/local/go/bin
+
   # fast node manager
   export PATH="/home/eyewavu/.fnm:$PATH"
   eval "`fnm env`"
