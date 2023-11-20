@@ -76,7 +76,7 @@ sudo pacman -S stow
   </summary>
 
 ```bash
-sudo pacman -S stow
+brew install stow
 ```
 </details>
 
