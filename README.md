@@ -94,7 +94,7 @@ This will create symlinks from this directory in your home directory.
 
 - [GNU Stow](https://www.gnu.org/software/stow) - The symlink farm manager used to manage the dotfiles.
 - [justleoo/skyfetch](https://github.com/justleoo/skyfetch) - a system information fetch written in rust 🦀
-- [Schniz/fnm](https://github.com/justleoo/skyfetch) - 🚀 Fast and simple Node.js version manager, built in Rust
+- [Schniz/fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust
 
 ## Included Software
 
