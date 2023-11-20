@@ -90,11 +90,6 @@ stow . --adopt
 
 This will create symlinks from this directory in your home directory.
 
-## Acknowledgments
-
-- [GNU Stow](https://www.gnu.org/software/stow) - The symlink farm manager used to manage the dotfiles.
-- [justleoo/skyfetch](https://github.com/justleoo/skyfetch) - a system information fetch written in rust 🦀
-- [Schniz/fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust
 
 ## Included Software
 
@@ -102,6 +97,7 @@ List of software that has independent config, or a alias in my dotfiles.
 
 <div align="center">
 
+![Static Badge](https://img.shields.io/badge/Gnu_Stow-A42E2B?style=for-the-badge&logo=gnu&logoColor=fff)
 ![Static Badge](https://img.shields.io/badge/VSCodium-2F80ED?style=for-the-badge&logo=vscodium&logoColor=fff)
 ![Static Badge](https://img.shields.io/badge/spotifyd-1DB954?style=for-the-badge&logo=spotify&logoColor=fff)
 ![Static Badge](https://img.shields.io/badge/gimp-5C5543?style=for-the-badge&logo=gimp&logoColor=fff)
@@ -116,9 +112,28 @@ List of software that has independent config, or a alias in my dotfiles.
 ![Static Badge](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=fff)
 ![Static Badge](https://img.shields.io/badge/deno-000?style=for-the-badge&logo=deno&logoColor=fff)
 ![Static Badge](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=fff)
-![Static Badge](https://img.shields.io/badge/cargo-000?style=for-the-badge&logo=rust&logoColor=fff)
-
+![Static Badge](https://img.shields.io/badge/rust-000?style=for-the-badge&logo=rust&logoColor=fff)
+![Static Badge](https://img.shields.io/badge/go-00ADD8?style=for-the-badge&logo=go&logoColor=fff)
 </div>
+
+### Acknowledgments
+
+- [GNU Stow](https://www.gnu.org/software/stow) - The symlink farm manager used to manage the dotfiles.
+- [VSCodium](https://github.com/VSCodium/vscodium) - binary releases of VS Code without MS branding/telemetry/licensing.
+- [spotifyd](https://github.com/Spotifyd/spotifyd) - A spotify daemon.
+- [GIMP](https://gitlab.gnome.org/GNOME/gimp) - The GNU Image Manipulation Program.
+- [kitty](https://github.com/kovidgoyal/kitty) - Cross-platform, fast, feature-rich, GPU based terminal.
+- [zsh](https://zsh.sourceforge.io) - Zsh is a shell designed for interactive use, although it is also a powerful scripting language.
+- [lazygit](https://github.com/jesseduffield/lazygit) - simple terminal UI for git commands.
+- [skyfetch](https://github.com/justleoo/skyfetch) - a system information fetch written in rust 🦀.
+- [fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust.
+- [eza](https://github.com/eza-community/eza) - A modern, maintained replacement for ls.
+- [Bun](https://github.com/oven-sh/bun) - Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one.
+- [NodeJS](https://github.com/nodejs) - Run JavaScript [Everywhere](https://nodejs.org/en/download).
+- [Deno](https://github.com/denoland/deno) - A modern runtime for JavaScript and TypeScript.
+- [Python](https://www.python.org) - Python is a programming language that lets you work quickly and integrate systems more effectively.
+- [Rust](https://github.com/rust-lang/rust) - Empowering everyone to build reliable and efficient software.
+- [Go](https://go.dev) - Build simple, secure, scalable systems with Go.
 
 ## License
 
