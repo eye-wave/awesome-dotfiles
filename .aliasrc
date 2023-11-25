@@ -28,6 +28,8 @@ if [ "$DETECTED_OS" = "LINUX_Desktop" ]; then
   alias kssh="kitty +kitten ssh"
 fi
 
+alias history="/usr/bin/cat $HISTFILE"
+alias uniq="huniq"
 alias ll="eza -alF --icons"
 alias ls="eza -lF --no-user --no-permissions --icons"
 alias tree="eza --tree -I \"node_modules|target|cache|deps|.git|.svelte-kit|.vscode|dist|build|target\" --icons"
