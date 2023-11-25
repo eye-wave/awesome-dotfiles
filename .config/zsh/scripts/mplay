@@ -1,0 +1,35 @@
+#!/bin/bash
+
+songs_path="$HOME/Music"
+song_volume=50
+random_song=false
+
+i=1
+for f in $@; do
+  case $f in
+    (-r|--random) random_song=true ;;
+    (-p|--path)
+      index=$((i+1))
+      songs_path=${!index}
+    ;;
+    (-V|--volume)
+      index=$((i+1))
+      song_volume=${!index}
+    ;;
+  esac
+
+  i=$((i+1))
+done
+
+cd $songs_path
+found=$(find . -type f)
+
+if [ "$random_song" = true ]; then
+  selected=$(echo "$found" | shuf -n 1)
+else
+  selected=$(echo "$found" | fzf --bind 'ctrl-c:abort')
+fi
+
+if [ -z "$selected" ]; then exit 1; fi
+
+mpv --volume=$song_volume --no-audio-display "$selected"
