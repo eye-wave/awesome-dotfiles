@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "npm-check-updates": "^16.14.11",
+    "vercel": "^32.6.0"
+  }
+}
