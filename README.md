@@ -109,6 +109,7 @@ List of software that has independent config, or a alias in my dotfiles.
 ![Static Badge](https://img.shields.io/badge/eza-000?style=for-the-badge&logo=rust&logoColor=fff)
 ![Static Badge](https://img.shields.io/badge/huniq-000?style=for-the-badge&logo=rust&logoColor=fff)
 ![Static Badge](https://img.shields.io/badge/mpv-691F69?style=for-the-badge&logo=mpv&logoColor=fff)
+![Static Badge](https://img.shields.io/badge/spicetify-1DB954?style=for-the-badge&logo=spotify&logoColor=fff)
 
 ![Static Badge](https://img.shields.io/badge/bun-000?style=for-the-badge&logo=bun&logoColor=fff)
 ![Static Badge](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=fff)
@@ -132,6 +133,7 @@ List of software that has independent config, or a alias in my dotfiles.
 - [eza](https://github.com/eza-community/eza) - A modern, maintained replacement for ls.
 - [huniq](https://github.com/koraa/huniq) - Filter out duplicates on the command line. Replacement for `sort | uniq` optimized for speed (10x faster) when sorting is not needed.
 - [mpv](https://mpv.io/) - a free, open source, and cross-platform media player.
+- [spicetify](https://spicetify.app/) - Command-line tool to customize the official Spotify client. Supports Windows, MacOS and Linux.
 
 - [Bun](https://github.com/oven-sh/bun) - Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one.
 - [NodeJS](https://github.com/nodejs) - Run JavaScript [Everywhere](https://nodejs.org/en/download).
