@@ -1,0 +1,56 @@
+{
+  "Shebang Bash": {
+    "prefix": "she",
+    "body": "#!/bin/bash",
+    "description": "Shebang for Bash",
+    "scope": "shellscript"
+  },
+  "Shebang JavaScript": {
+    "prefix": "she",
+    "body": "#!/usr/bin/env node",
+    "description": "Shebang for JavaScript",
+    "scope": ["javascript","javascriptreact"]
+  },
+  "Shebang Lua": {
+    "prefix": "she",
+    "body": "#!/usr/bin/env lua",
+    "description": "Shebang for Lua",
+    "scope": "lua"
+  },
+  "Shebang Perl": {
+    "prefix": "she",
+    "body": "#!/usr/bin/env perl",
+    "description": "Shebang for Perl",
+    "scope": "perl"
+  },
+  "Shebang PHP": {
+    "prefix": "she",
+    "body": "#!/usr/bin/env php",
+    "description": "Shebang for PHP",
+    "scope": "php"
+  },
+  "Shebang Python": {
+    "prefix": "she",
+    "body": "#!/usr/bin/env python",
+    "description": "Shebang for Python",
+    "scope": "python"
+  },
+  "Shebang R": {
+    "prefix": "she",
+    "body": "#!/usr/bin/env Rscript",
+    "description": "Shebang for R",
+    "scope": "r"
+  },
+  "Shebang Ruby": {
+    "prefix": "she",
+    "body": "#!/usr/bin/env ruby",
+    "description": "Shebang for Ruby",
+    "scope": "ruby"
+  },
+  "Shebang Typescript": {
+    "prefix": "she",
+    "body": "#!/usr/bin/env bun",
+    "description": "Shebang for Typescript",
+    "scope": ["typescript","typescriptreact"]
+  }
+}

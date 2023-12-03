@@ -1,0 +1,73 @@
+{
+  "Component - React JSX": {
+    "prefix": "rfce",
+    "body": [
+      "import styles from \"$1.module.css\"",
+      "",
+      "export const $1 = (props) => {",
+      "  ",
+      "  return <>",
+      "    ",
+      "</>",
+      "}",
+      "",
+    ],
+    "description": "JavaScript frontend component for React",
+    "scope": "jsx"
+  },
+  "Component - React TSX": {
+    "prefix": "rfce",
+    "body": [
+      "import styles from \"$1.module.css\"",
+      "",
+      "type $1Props {",
+      "  ",
+      "}",
+      "export const $1: React.FC<$1Props> = (props) => {",
+      "  ",
+      "  return <>",
+      "    ",
+      "</>",
+      "}",
+      "",
+    ],
+    "description": "TypeScript component boilerplate for React",
+    "scope": "tsx"
+  },
+  "Component - Svelte": {
+    "prefix": "rfce",
+    "body": [
+      "<script lang=\"ts\">",
+      "  ",
+      "</script>",
+      "",
+      "$0",
+      "",
+      "<style lang=\"postcss\">",
+      "  ",
+      "</style>",
+      "",
+    ],
+    "description": "TypeScript component boilerplate for Svelte",
+    "scope": "svelte"
+  },
+  "Component - Vue": {
+    "prefix": "rfce",
+    "body": [
+      "<script lang=\"ts\">",
+      "  ",
+      "</script>",
+      "",
+      "<template>",
+      "  $0",
+      "</template>",
+      "",
+      "<style scoped>",
+      "  ",
+      "</style>"
+      "",
+    ],
+    "description": "TypeScript component boilerplate for Vue",
+    "scope": "vue"
+  },
+}
