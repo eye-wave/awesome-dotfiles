@@ -14,15 +14,17 @@
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                    ⠀⠀⠀⠀⠀⠀( ( __))   下工乚乇
 ⠀⠀⠀⠀⠀⠀乃丫 _𝚎𝚢𝚠𝚊𝚟𝚎
 */{
-  "[javascript]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true,
   },
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
+  "breadcrumbs.enabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.sortImports": true
+    "source.sortImports": true,
   },
   "editor.codeLensFontFamily": "mononoki Nerd Font Mono",
   "editor.copyWithSyntaxHighlighting": false,
@@ -56,11 +58,11 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.sortOrder": "default",
+  "git.openRepositoryInParentFolders": "never",
   "javascript.format.semicolons": "remove",
   "javascript.suggest.names": false,
   "javascript.suggestionActions.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "liveServer.settings.donotShowInfoMsg": true,
   "rainbow_csv.autodetect_separators": [",", ";", "|"],
   "rust-analyzer.assist.expressionFillDefault": "default",
   "rust-analyzer.inlayHints.typeHints.enable": false,
@@ -84,11 +86,30 @@
   "terminal.integrated.fastScrollSensitivity": 8,
   "terminal.integrated.fontFamily": "mononoki Nerd Font Mono",
   "terminal.integrated.fontSize": 12,
-  "terminal.integrated.tabs.description": "uwu",
   "terminal.integrated.tabs.enableAnimation": false,
   "terminal.integrated.tabs.title": "\u2764 ${process}",
-  "totalTypeScript.hiddenTips": ["passing-generics-to-types", "non-null-expression", "tuple-type"],
-  "totalTypeScript.hideAllTips": true,
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+        "icon": "checklist",
+        "iconColour": "#597",
+    },
+    "BUG": {
+        "icon": "bug",
+        "iconColour": "#597",
+    },
+    "HACK": {
+        "icon": "terminal",
+        "iconColour": "#597"
+    },
+    "FIXME": {
+        "icon": "flame",
+        "iconColour": "#597"
+    },
+    "XXX": {
+        "icon": "x",
+        "iconColour": "#597"
+    },
+  },
   "totalTypeScript.hideBasicTips": true,
   "typescript.format.semicolons": "remove",
   "typescript.suggest.paths": true,
@@ -129,5 +150,4 @@
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 19,
   "workbench.editor.enablePreview": false,
-  "git.openRepositoryInParentFolders": "never",
 }
