@@ -9,6 +9,7 @@
     "bungcip.better-toml",
     "Catppuccin.catppuccin-vsc-icons",
     "ChakrounAnas.turbo-console-log",
+    "Chukwuamaka.csvtojson-converter",
     "csstools.postcss",
     "cweijan.cweijan-personal-material-icon-theme",
     "dbaeumer.vscode-eslint",
@@ -16,6 +17,7 @@
     "equinusocio.vsc-material-theme-icons",
     "esbenp.prettier-vscode",
     "formulahendry.auto-rename-tag",
+    "golang.go",
     "Gruntfuggly.todo-tree",
     "HookyQR.beautify",
     "janisdd.vscode-edit-csv",
@@ -45,11 +47,12 @@
     "Tyriar.sort-lines",
     "unifiedjs.vscode-mdx",
     "unthrottled.doki-theme",
+    "usernamehw.errorlens",
     "usernamehw.remove-empty-lines",
     "vscodevim.vim",
     "wildberries-theme.wildberries",
     "yoavbls.pretty-ts-errors",
     "znck.vue-language-features",
-    "znck.vue"
+    "znck.vue",
   ]
 }
