@@ -13,26 +13,27 @@
       "",
     ],
     "description": "JavaScript frontend component for React",
-    "scope": "jsx"
+    "scope": "javascriptreact"
   },
   "Component - React TSX": {
     "prefix": "rfce",
     "body": [
+      "import React from \"react\"",
       "import styles from \"$1.module.css\"",
       "",
-      "type $1Props {",
+      "type $1Props ={",
       "  ",
       "}",
       "export const $1: React.FC<$1Props> = (props) => {",
       "  ",
       "  return <>",
       "    ",
-      "</>",
+      "  </>",
       "}",
       "",
     ],
     "description": "TypeScript component boilerplate for React",
-    "scope": "tsx"
+    "scope": "typescriptreact"
   },
   "Component - Svelte": {
     "prefix": "rfce",
