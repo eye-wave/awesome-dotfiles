@@ -50,14 +50,14 @@ if [ $DETECTED_OS != "LINUX_Android" ]; then
   export PATH=$PATH:/usr/local/go/bin
 
   # fast node manager
-  export PATH="/home/eyewavu/.fnm:$PATH"
+  export PATH="$HOME/.fnm:$PATH"
   eval "`fnm env`"
 
   # bun
   [ -s "/home/$USER/.bun/_bun" ] && source "/home/$USER/.bun/_bun"
   export BUN_INSTALL="$HOME/.bun"
   export PATH="$BUN_INSTALL/bin:$PATH"
-  [ -s "/home/eyewavu/.bun/_bun" ] && source "/home/eyewavu/.bun/_bun"
+  [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 fi
 
@@ -123,3 +123,5 @@ bindkey "^[[Z" autosuggest-accept
 unset DETECTED_OS
 unset -f detect_os
 unset -f add_zsh_plugin
+
+export PATH=$PATH:$HOME/.spicetify
