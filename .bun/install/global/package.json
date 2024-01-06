@@ -1,7 +1,10 @@
 {
   "dependencies": {
-    "nodemon": "^3.0.1",
-    "npm-check-updates": "^16.14.11",
-    "vercel": "^32.6.0"
+    "nodemon": "^3.0.2",
+    "npkill": "^0.11.3",
+    "npm-check-updates": "^16.14.12",
+    "pnpm": "^8.12.1",
+    "vercel": "^33.0.0",
+    "yarn": "^1.22.21"
   }
 }
